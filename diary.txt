@@ -1,0 +1,2 @@
+20200612 Fri
+Today I fixed python scripts in the freertos folder, because the original one will lead to failure if three projects are not built simultanuously, as the old one will rename the files within the original folder, which will cause problem in searching compiled file. The new one relocates the rename process into the destination folder, which temporarily solves the problem
